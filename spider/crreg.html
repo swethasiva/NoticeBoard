@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    
+  
+    <style>
+        
+         body
+        {
+            background: url(back.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    
+          fieldset
+        {
+            background-color: antiquewhite;
+            width:300;
+            position: relative;
+            top:200px;
+            
+        }
+        
+        
+        
+        legend
+        {
+            background-color: crimson;
+            color: white;
+            border-radius:2em;
+            padding : 10px;
+        }
+    
+    </style>
+    
+</head>
+    
+<body>
+   <center> 
+    <fieldset>
+        <legend>Registration</legend>
+    
+        <form action="crlog.php" method="post">
+        
+            
+                
+                <table>
+                
+                    <tr><th>User Name</th><td><input type="text" name="t1" required></td></tr>
+                     <tr><th>Email ID</th><td><input type="text" name="t2" required></td></tr>
+                     <tr><th>Pasword</th><td><input type="password" name="t3" required></td></tr>
+                    <tr><th></th><td><input type= "submit" value ="Log In"/></td><td><a href="user.html">Back</a></tr>
+                
+                </table>
+            
+          
+        
+        </form>
+    
+    </fieldset>
+    </center>  
+</body>
+
+</html>

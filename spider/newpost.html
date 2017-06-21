@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    
+  
+    <style>
+        
+         body
+        {
+            background: url(back.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    
+          fieldset
+        {
+            background-color: antiquewhite;
+            width:300;
+            position: relative;
+            top:200px;
+            
+        }
+        
+        
+        
+        legend
+        {
+            background-color: crimson;
+            color: white;
+            border-radius:2em;
+            padding : 10px;
+        }
+    
+    </style>
+    
+</head>
+    
+<body>
+   <center> 
+    <fieldset>
+        <legend>Add Post</legend>
+    
+        <form action="newpost.php" method="post">
+        
+            
+                
+                <table>
+                
+                    <tr><th>Title</th><td><input type="text" name="t1" required autocomplete="off"></td></tr>
+                     <tr><th>Message</th><td><textarea name = "t2"></textarea></td></tr>
+                     <tr><th>Date of Post</th><td><input type="date" name="t3" required></td></tr>
+                     <tr><th>Submission Date</th><td><input type="date" name="t4" required></td></tr>
+                    <tr><th></th><td><input type= "submit" value ="ADD"/></td>
+                        <td><a href="adminmenu.php">Back</a></td></tr>
+                
+                </table>
+            
+          
+        
+        </form>
+    
+    </fieldset>
+    </center>  
+</body>
+
+</html>
